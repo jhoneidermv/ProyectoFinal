@@ -7,6 +7,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esta es la pantalla LARGE" />
+        android:text="Esta es la pantalla SMALL" />
 
 </LinearLayout>
