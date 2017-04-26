@@ -5,4 +5,5 @@
     <string name="titulo_ventana_dos">¿Que desea realizar?</string>
     <string name="btn_uno_ventana_dos">Insertar investigador o \n grupo de investigación</string>
     <string name="btn_dos_ventana_dos">Buscar información de investigador \n o grupo de investigación</string>
+    <string name="titulo_fragmento_agregar_investigador">Agregar Investigador</string>
 </resources>

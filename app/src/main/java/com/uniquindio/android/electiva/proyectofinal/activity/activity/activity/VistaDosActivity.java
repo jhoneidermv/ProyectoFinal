@@ -1,8 +1,10 @@
-package com.uniquindio.android.electiva.proyectofinal;
+package com.uniquindio.android.electiva.proyectofinal.activity.activity.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.uniquindio.android.electiva.proyectofinal.R;
 
 /**
  * Created by camilo marin on 25/04/2017.
