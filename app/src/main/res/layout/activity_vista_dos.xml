@@ -32,7 +32,8 @@
                 android:text="@string/btn_uno_ventana_dos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnUnoVentanaDos" />
+                android:id="@+id/btnUnoVentanaDos"
+                android:onClick="fragmentAgregar" />
         </LinearLayout>
 
         <LinearLayout

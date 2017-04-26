@@ -7,5 +7,8 @@
     <string name="btn_uno_ventana_dos">Insert researcher or \n research group</string>
     <string name="btn_dos_ventana_dos">Search for researcher or \n research group information</string>
     <string name="titulo_fragmento_agregar_investigador">Add researcher</string>
+    <string name="radio_butron_uno_item_uno">Insert researcher</string>
+    <string name="radio_butron_uno_item_dos">Insert researcher gruop</string>
+    <string name="titulo_franment_agregar">Select to insert</string>
 
 </resources>
