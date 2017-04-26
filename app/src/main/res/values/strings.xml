@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CVLAC UNIQUINDIO</string>
+    <string name="bienvenido">BIENVENID@</string>
+    <string name="btn_ingresar">INGRESAR</string>
 </resources>
