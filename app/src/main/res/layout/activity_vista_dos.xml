@@ -5,32 +5,5 @@
     android:background="@drawable/imagen">
 
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <TextView
-            android:text="@string/bienvenido"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtBienvenido"
-            android:textSize="30sp"
-            android:gravity="center_horizontal"
-            android:textStyle="normal|bold" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical|center_horizontal">
-
-            <Button
-                android:text="@string/btn_ingresar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnIngresar"
-                android:textSize="36sp" />
-        </LinearLayout>
-    </LinearLayout>
 </LinearLayout>
