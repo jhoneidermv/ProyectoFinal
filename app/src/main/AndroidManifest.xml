@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activity.VistaDosActivity"></activity>
-
+        <activity android:name=".activity.VistaDosActivity" />
+        <activity android:name=".activity.VistaIngresarGrupoInvestigacion"></activity>
+        <activity android:name=".activity.VistaIngresarInvestigador"></activity>
     </application>
 
 </manifest>

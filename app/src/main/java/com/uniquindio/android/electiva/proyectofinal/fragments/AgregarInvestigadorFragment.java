@@ -1,5 +1,6 @@
 package com.uniquindio.android.electiva.proyectofinal.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.uniquindio.android.electiva.proyectofinal.R;
+import com.uniquindio.android.electiva.proyectofinal.activity.VistaIngresarInvestigador;
 
 /**
  * Created by camilo marin on 25/04/2017.
@@ -44,7 +46,7 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
             public void onClick(View v) {
 
                 if(radioButtonInvestigador.isChecked()){
-
+                    formularioInvestigador(getView());
                 } else if(radioButtonGrupo.isChecked()){
 
                 }else{
@@ -64,5 +66,10 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
             case R.id.btnIngresarFragment:
 
         }
+    }
+
+    public void formularioInvestigador(View view){
+        Intent intent = new Intent(this.getContext(), VistaIngresarInvestigador.class);
+        startActivity(intent);
     }
 }
