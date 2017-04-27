@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtBienvenido"
-            android:textSize="30sp"
+            android:textSize="@dimen/bienvenido"
             android:gravity="center_horizontal"
             android:textStyle="normal|bold" />
 
@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnIngresar"
-                android:textSize="36sp"
+                android:textSize="@dimen/btn_ingresar"
                 android:onClick="ingresar" />
         </LinearLayout>
     </LinearLayout>

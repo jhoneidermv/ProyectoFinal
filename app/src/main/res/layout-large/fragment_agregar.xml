@@ -54,6 +54,18 @@
                 android:textSize="30sp" />
 
         </RadioGroup>
+
+        <Button
+            android:text="@string/btn_ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIngresarFragment"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="195dp"
+            android:textSize="30sp"
+            />
+
     </RelativeLayout>
 
 </RelativeLayout>

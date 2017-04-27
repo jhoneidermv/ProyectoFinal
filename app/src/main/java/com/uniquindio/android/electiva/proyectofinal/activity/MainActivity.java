@@ -1,4 +1,4 @@
-package com.uniquindio.android.electiva.proyectofinal.activity.activity.activity;
+package com.uniquindio.android.electiva.proyectofinal.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

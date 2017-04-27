@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtTitulo2"
-        android:textSize="36sp"
+        android:textSize="@dimen/titulo_ventana_dos"
         android:gravity="center_horizontal"
         android:textStyle="normal|bold" />
 
@@ -33,7 +33,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnUnoVentanaDos"
-                android:onClick="fragmentAgregar" />
+                android:onClick="fragmentAgregar"
+                android:textSize="@dimen/btn_uno_ventana_dos"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -46,7 +48,8 @@
                 android:text="@string/btn_dos_ventana_dos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnDosVentanaDos" />
+                android:id="@+id/btnDosVentanaDos"
+                android:textSize="@dimen/btn_dos_ventana_dos"/>
         </LinearLayout>
     </LinearLayout>
 

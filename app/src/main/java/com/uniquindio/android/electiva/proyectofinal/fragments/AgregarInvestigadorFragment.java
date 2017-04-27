@@ -1,12 +1,13 @@
-package com.uniquindio.android.electiva.proyectofinal.activity.activity.activity.fragments;
+package com.uniquindio.android.electiva.proyectofinal.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 import com.uniquindio.android.electiva.proyectofinal.R;
 
@@ -18,6 +19,7 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
 
     RadioButton radioButtonInvestigador;
     RadioButton radioButtonGrupo;
+    Button button;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,18 +37,32 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
         radioButtonInvestigador.setOnClickListener((View.OnClickListener) this);
         radioButtonGrupo.setOnClickListener((View.OnClickListener) this);
 
+        button = (Button) getView().findViewById(R.id.btnIngresarFragment);
+        button.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+
+                if(radioButtonInvestigador.isChecked()){
+
+                } else if(radioButtonGrupo.isChecked()){
+
+                }else{
+                    Toast.makeText(getContext(), "Seleccione una de las opciones", Toast.LENGTH_SHORT).show();
+                }
+
+
+            }
+        });
+
 
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.rbInsertarInvestigador:
-                Log.v("alerta","Se selecciono el boton de investigador");
-                break;
-            case R.id.rbInsertarGrupoInvestigacion:
-                Log.v("alerta","Se selecciono el boton de grupo de investigación");
-                break;
+            case R.id.btnIngresarFragment:
+
         }
     }
 }
