@@ -5,13 +5,6 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
 
-
-
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
-
         <TextView
             android:text="@string/titulo_franment_agregar"
             android:layout_width="match_parent"
@@ -53,14 +46,14 @@
         </RadioGroup>
 
         <Button
-            android:text="@string/btn_ingresar"
+            android:text="@string/btn_ingresar_fragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnIngresarFragment"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             tools:text="@string/btn_ingresar"
-            android:textSize="@dimen/btn_ingresar"
+            android:textSize="@dimen/btn_ingresar_fragment"
             android:gravity="center_horizontal"/>
 
 

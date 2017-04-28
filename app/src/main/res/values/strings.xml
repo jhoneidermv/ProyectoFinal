@@ -9,5 +9,6 @@
     <string name="radio_butron_uno_item_uno">Insertar Investigador</string>
     <string name="radio_butron_uno_item_dos">Insertar Grupo de Investigación</string>
     <string name="titulo_franment_agregar">Seleccione que insertar</string>
+    <string name="btn_ingresar_fragment">INGRESAR</string>
 
 </resources>

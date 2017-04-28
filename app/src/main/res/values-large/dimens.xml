@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="bienvenido">30dp</dimen>
-    <dimen name="btn_ingresar">36dp</dimen>
-    <dimen name="titulo_ventana_dos">36dp</dimen>
-    <dimen name="btn_uno_ventana_dos">14dp</dimen>
-    <dimen name="btn_dos_ventana_dos">14dp</dimen>
-    <dimen name="titulo_fragmento_agregar_investigador">30dp</dimen>
-    <dimen name="radio_butron_uno_item_uno">14dp</dimen>
-    <dimen name="radio_butron_uno_item_dos">14dp</dimen>
-    <dimen name="titulo_franment_agregar">30dp</dimen>
-    <dimen name="btn_ingresar_fragment">36dp</dimen>
+    <dimen name="bienvenido">50dp</dimen>
+    <dimen name="btn_ingresar">50dp</dimen>
+    <dimen name="titulo_ventana_dos">50dp</dimen>
+    <dimen name="btn_uno_ventana_dos">30dp</dimen>
+    <dimen name="btn_dos_ventana_dos">30dp</dimen>
+    <dimen name="titulo_fragmento_agregar_investigador">50dp</dimen>
+    <dimen name="radio_butron_uno_item_uno">30dp</dimen>
+    <dimen name="radio_butron_uno_item_dos">30dp</dimen>
+    <dimen name="titulo_franment_agregar">50dp</dimen>
+    <dimen name="btn_ingresar_fragment">50dp</dimen>
 
 </resources>

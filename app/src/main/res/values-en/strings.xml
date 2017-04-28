@@ -10,5 +10,6 @@
     <string name="radio_butron_uno_item_uno">Insert researcher</string>
     <string name="radio_butron_uno_item_dos">Insert researcher gruop</string>
     <string name="titulo_franment_agregar">Select to insert</string>
+    <string name="btn_ingresar_fragment">ENTER</string>
 
 </resources>
