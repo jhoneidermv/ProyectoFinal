@@ -11,5 +11,11 @@
     <string name="radio_butron_uno_item_dos">Insert researcher gruop</string>
     <string name="titulo_franment_agregar">Select to insert</string>
     <string name="btn_ingresar_fragment">ENTER</string>
+    <string name="titulo_vista_buscar">Search</string>
+    <string name="radio_button_uno_buscar">Researcher</string>
+    <string name="radio_button_dos_buscar">Research group</string>
+    <string name="radio_button_tres_buscar">Line of research</string>
+    <string name="nota_vista_buscar">If the search you are going to make is in particular enter the data to abuse</string>
+
 
 </resources>

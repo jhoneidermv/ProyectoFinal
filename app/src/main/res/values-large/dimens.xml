@@ -10,5 +10,10 @@
     <dimen name="radio_butron_uno_item_dos">30dp</dimen>
     <dimen name="titulo_franment_agregar">50dp</dimen>
     <dimen name="btn_ingresar_fragment">50dp</dimen>
+    <dimen name="titulo_vista_buscar">50dp</dimen>
+    <dimen name="radio_button_uno_buscar">30dp</dimen>
+    <dimen name="radio_button_dos_buscar">30dp</dimen>
+    <dimen name="radio_button_tres_buscar">30dp</dimen>
+    <dimen name="nota_vista_buscar">40dp</dimen>
 
 </resources>

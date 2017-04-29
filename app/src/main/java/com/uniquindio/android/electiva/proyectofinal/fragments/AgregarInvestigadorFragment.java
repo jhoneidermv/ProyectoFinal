@@ -11,6 +11,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.uniquindio.android.electiva.proyectofinal.R;
+import com.uniquindio.android.electiva.proyectofinal.activity.VistaIngresarGrupoInvestigacion;
 import com.uniquindio.android.electiva.proyectofinal.activity.VistaIngresarInvestigador;
 
 /**
@@ -48,7 +49,7 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
                 if(radioButtonInvestigador.isChecked()){
                     formularioInvestigador(getView());
                 } else if(radioButtonGrupo.isChecked()){
-
+                    formularioGrupoInvestigacion(getView());
                 }else{
                     Toast.makeText(getContext(), "Seleccione una de las opciones", Toast.LENGTH_SHORT).show();
                 }
@@ -70,6 +71,11 @@ public class AgregarInvestigadorFragment extends DialogFragment implements View.
 
     public void formularioInvestigador(View view){
         Intent intent = new Intent(this.getContext(), VistaIngresarInvestigador.class);
+        startActivity(intent);
+    }
+
+    public void formularioGrupoInvestigacion(View view){
+        Intent intent = new Intent(this.getContext(), VistaIngresarGrupoInvestigacion.class);
         startActivity(intent);
     }
 }

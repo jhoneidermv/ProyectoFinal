@@ -1,5 +1,6 @@
 package com.uniquindio.android.electiva.proyectofinal.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -24,5 +25,10 @@ public class VistaDosActivity extends AppCompatActivity{
     public void fragmentAgregar(View view){
         AgregarInvestigadorFragment agregarInvestigadorFragment =  new AgregarInvestigadorFragment();
         agregarInvestigadorFragment.show(getSupportFragmentManager(),"Investigador");
-  }
+    }
+
+    public void buscar(View view){
+        Intent intent = new Intent(this, VistaBuscarActivity.class);
+        startActivity(intent);
+    }
 }
