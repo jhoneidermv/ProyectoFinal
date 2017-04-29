@@ -1,7 +1,8 @@
 package com.uniquindio.android.electiva.proyectofinal.fragments;
 
-import android.widget.Button;
-import android.widget.RadioButton;
+import com.uniquindio.android.electiva.proyectofinal.activity.VistaIngresarInvestigador;
+
+import java.util.List;
 
 /**
  * Created by JUAN FELIPE on 29/04/2017.
@@ -9,7 +10,5 @@ import android.widget.RadioButton;
 
 public class ListaIntegrantes {
 
-    RadioButton radioButtonInvestigador;
-    RadioButton radioButtonGrupo;
-    Button button;
+  List<VistaIngresarInvestigador> investigadores;
 }
