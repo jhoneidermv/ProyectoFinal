@@ -17,7 +17,10 @@
     <string name="nota_vista_buscar">Si la busqueda que va a realizar es en particular ingrese el dato a buscar</string>
     <string name="nombre_grupo">Nombre*:</string>
     <string name="sigla">Sigla*:</string>
-    <string name="nombre_grupo">*:</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
