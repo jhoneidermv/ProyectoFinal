@@ -1,19 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_vista_ingresar_grupo_investigacion"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.uniquindio.android.electiva.proyectofinal.activity.VistaIngresarGrupoInvestigacion">
 
+
     <TextView
-        android:text="Formulario2"
-        android:layout_width="wrap_content"
+        android:id="@+id/mensaje"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="36sp" />
-</RelativeLayout>
+        android:gravity="center_horizontal"
+        android:text="Introduzca la información del grupo de investigación "
+        android:textAppearance="@style/Base.DialogWindowTitle.AppCompat"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(*)campos obligatorios"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.87"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Nombre*:"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Sigla*:"
+                    android:textSize="30sp" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="30sp" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30sp" />
+
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Email*:"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Link del CVLAC*:"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="Integrantes"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="@android:color/background_light"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:text="Enviar Solicitud"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:drawable/alert_light_frame"
+        android:visibility="visible" />
+
+
+</LinearLayout>

@@ -15,5 +15,9 @@
     <string name="radio_button_dos_buscar">Grupo de Investigación</string>
     <string name="radio_button_tres_buscar">Linea de Investigación</string>
     <string name="nota_vista_buscar">Si la busqueda que va a realizar es en particular ingrese el dato a buscar</string>
+    <string name="nombre_grupo">Nombre*:</string>
+    <string name="sigla">Sigla*:</string>
+    <string name="nombre_grupo">*:</string>
+
 
 </resources>
